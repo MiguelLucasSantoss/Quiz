@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+        <h1 class="inicio">Quiz de Futebol</h1>
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+
+            <div class="titulopadrao">
+                <h1 class="marcatexto">Primeira Pergunta</h1>
+                <p class="perguntas">Qual jogou por mais tempo no Barcelona?</p>
+            </div>
+
+            <div class="titulopadrao">
+                <h1 class="marcatexto">Segunda Pergunta</h1>
+                <p class="perguntas">Qual desses jogadores fez mais gols?</p>
+            </div>
+
+            <div class="titulopadrao"> 
+                <h1 class="marcatexto">Terceira Pergunta</h1>
+                <p class="perguntas">Qual desses ganhou uma copa do mundo?</p>
+            </div>
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+            <label style="color: rgb(255, 255, 255);">Escolha um Opção</label>
+            <label style="color: rgb(255, 255, 255);">Escolha um Opção</label>
+            <label style="color: rgb(255, 255, 255);">Escolha um Opção</label>
+
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+            <select id="pergunta1">
+
+                <option id="resposta">Resposta</option>
+                <option value="0">Neymar</option>
+                <option value="1">Messi</option>
+                <option value="0">Iniesta</option>
+        
+        
+            </select>
+        
+            <select id="pergunta2">
+        
+                <option id="resposta">Resposta</option>
+                <option value="0">Neymar</option>
+                <option value="0">Messi</option>
+                <option value="1">Cristiano Ronaldo</option>
+        
+        
+            </select>
+        
+            <select id="pergunta3">
+        
+                <option id="resposta">Resposta</option>
+                <option value="0">Neymar</option>
+                <option value="1">Toni Kross</option>
+                <option value="0">Harry Kane</option>
+        
+        
+            </select>
+
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <center>
+            <div id="baixoResultado">
+                <label style="color: rgb(253, 253, 253);">Resultado</label>
+                <input id="inputResultado">
+                <button onclick="MostraValorDaSelect()">Clique ae paizão!</button><br><br>
+            </div>
+        </center>
+
+        <img src="imagens/dc10dtd-ba64cf89-f77d-4d08-b4eb-2b41f56d9808.png" alt="" class="neymar">
+        <img src="imagens/messi_10__png__wallpaper_fc_barcelona_by_fabian1rivera_de2s414-pre.png" alt="" class="messi">
+
+    </div>
+
+    <script src="a.js"></script>
+
+</body>
+</html>
